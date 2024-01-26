@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>K-Tigers</title>
+        <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet" />
+        <link href="style.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body id="main">
+        <div class="main-content">
+            <div class="main-img">
+                <img src="/img/main1.png" />
+                <div class="main-btn">
+                    <a href="#online"> <img class="online-btn" src="/img/main2-1.png" /> </a>
+                    <img src="/img/main2-2.png" />
+                </div>
+                <img src="/img/main3.png" />
+            </div>
+            <div class="video">
+                <video src="./img/k-tigers.mp4" muted autoplay playsinline></video>
+            </div>
+        </div>
+
+        <div class="online-contact" id="online">
+            <div class="gray-bg">
+                <div class="main-title">K-Tigers 시범단 공연</div>
+                <div class="sub-title">온라인 문의</div>
+                <div class="inputs">
+                    <div class="title">기본 정보</div>
+                    <div class="input-box">
+                        <div class="wrapper">
+                            <div class="label">이름</div>
+                            <input id="name" placeholder="이나은" />
+                        </div>
+                        <div class="wrapper">
+                            <div class="label">연락처</div>
+                            <input id="phone" placeholder="010-1234-5678" />
+                        </div>
+                        <div class="wrapper">
+                            <div class="label">이메일</div>
+                            <input id="email" type="email" placeholder="tak1313900@gmaill.com" />
+                        </div>
+                    </div>
+                    <div class="border"></div>
+                    <div class="title">행사 정보</div>
+                    <div class="input-box">
+                        <div class="wrapper">
+                            <div class="label">일자</div>
+                            <input id="date" type="date" />
+                        </div>
+                        <div class="wrapper">
+                            <div class="label">장소</div>
+                            <input id="place" placeholder="장소를 입력하세요." />
+                        </div>
+                        <div class="wrapper">
+                            <div class="label">예산</div>
+                            <input id="money" type="number" placeholder="예산 금액을 입력하세요." />
+                        </div>
+                        <div class="text-wrapper">
+                            <div class="label">행사 내용 및 문의사항</div>
+                            <textarea id="content" placeholder="행사 내용 및 문의사항을 입력하세요."></textarea>
+                        </div>
+                    </div>
+                </div>
+                <div class="btn-div"><div id="submit-btn">작성 완료</div></div>
+            </div>
+        </div>
+        <script src="./index.js"></script>
+    </body>
+</html>
